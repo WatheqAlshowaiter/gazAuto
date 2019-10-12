@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'DubaiW23-Regular';
+  src: url('/gazAuto/public/vendors/webfonts/DubaiW23-Regular.eot'); /* IE9 Compat Modes */
+  src: url('/gazAuto/public/vendors/webfonts/DubaiW23-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/gazAuto/public/vendors/webfonts/DubaiW23-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/gazAuto/public/vendors/webfonts/DubaiW23-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/gazAuto/public/vendors/webfonts/DubaiW23-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/gazAuto/public/vendors/webfonts/DubaiW23-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'DubaiW23-Medium';
+  src: url('/gazAuto/public/vendors/webfonts/DubaiW23-Medium.eot'); /* IE9 Compat Modes */
+  src: url('/gazAuto/public/vendors/webfonts/DubaiW23-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/gazAuto/public/vendors/webfonts/DubaiW23-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/gazAuto/public/vendors/webfonts/DubaiW23-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/gazAuto/public/vendors/webfonts/DubaiW23-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/gazAuto/public/vendors/webfonts/DubaiW23-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'DubaiW23-Bold';
+  src: url('/gazAuto/public/vendors/webfonts/DubaiW23-Bold.eot'); /* IE9 Compat Modes */
+  src: url('/gazAuto/public/vendors/webfonts/DubaiW23-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/gazAuto/public/vendors/webfonts/DubaiW23-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/gazAuto/public/vendors/webfonts/DubaiW23-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/gazAuto/public/vendors/webfonts/DubaiW23-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/gazAuto/public/vendors/webfonts/DubaiW23-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body {
+	text-align: right;
+	font-family: "DubaiW23-Regular", "Tahoma", sans-serif;
+}
+
+h1 {
+	font-family: 'DubaiW23-Bold';
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: 'DubaiW23-Bold';
+	padding-top: 1rem;
+	padding-bottom: 0.5rem;
+}
+strong, dt {
+	font-family: 'DubaiW23-Bold';	
+}
+
+a:link, a:hover, a:visited, a:focus, a:active {
+	text-decoration: none;
+}
+a:hover, a:visited:hover {
+	color: #0054ed;
+}
+ul, ol {
+	list-style-position: inside;
+	padding-right: 0;
+}
+
+blockquote.twitter-tweet {
+  display: inline-block;
+  border-color: #eee #ddd #bbb;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+}
+blockquote.twitter-tweet a:hover,
+blockquote.twitter-tweet a:focus {
+    text-decoration: underline;
+}
+.rtl {
+	direction: rtl;
+}
+.ltr {
+	direction: ltr;
+}
+
+/* Home Page */
+.home-page .page-header{
+  text-align:  center;
+  text-decoration: underline;
+}
